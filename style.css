@@ -18,23 +18,17 @@
 [class*="col-"] {
     display: flex;
     flex-flow: column wrap;
-    justify-content: flex-start; /*flex-start or center*/
-    align-items: flex-start; /*center*/
-    padding: 20px;
-    /*border: 2px solid darkblue;*/
+    justify-content: flex-start;
+    padding: 30px;
 }
 
 .container {
     display: flex;
     flex-flow: column wrap;
-    justify-content: center; /*flex-start*/
-    /*border: 2px solid darkblue;*/
-    /*border-radius: 8px;*/
+    justify-content: center;
 }
 
-
-@media only screen and (max-width: 768px) {
-    /* For mobile phones: */
+@media only screen and (max-width: 992px) {
     [class*="col-"] {
         width: 100%;
     }
@@ -68,10 +62,27 @@ footer {
 
 .intro {
     flex-direction: column;
-    padding: 30px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .powder {
     background-color: powderblue;
 }
 
+h2 {
+   padding-bottom: 15px;
+}
+
+p {
+    margin: 0px;
+}
+
+.p-bot{
+    padding-bottom: 15px;
+}
+
+.white {
+    background-color: white;
+}
