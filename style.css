@@ -82,7 +82,14 @@ p {
 .p-bot{
     padding-bottom: 15px;
 }
+.px {
+    width: 200px;
+}
 
 .white {
     background-color: white;
+}
+
+img {
+    width: 30px;
 }
